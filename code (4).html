@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"on-primary-fixed-variant":"#574500","secondary-fixed":"#a2f3c8","surface-container":"#1c201e","inverse-primary":"#735c00","primary-fixed-dim":"#e9c349","primary":"#f2ca50","on-primary":"#3c2f00","on-surface":"#e0e3df","surface-bright":"#363a38","on-error":"#690005","on-background":"#e0e3df","background":"#101412","surface-container-highest":"#323633","error-container":"#93000a","secondary-container":"#046443","inverse-surface":"#e0e3df","on-tertiary-fixed-variant":"#4c463d","outline":"#99907c","surface-variant":"#323633","inverse-on-surface":"#2d312f","on-tertiary":"#353028","on-surface-variant":"#d0c5af","on-primary-container":"#554300","on-tertiary-fixed":"#1f1b14","on-error-container":"#ffdad6","surface-tint":"#e9c349","primary-container":"#d4af37","on-secondary-fixed-variant":"#005235","tertiary":"#d7cdc2","secondary":"#87d7ad","primary-fixed":"#ffe088","on-secondary-fixed":"#002113","tertiary-container":"#bbb2a7","surface-dim":"#101412","surface-container-lowest":"#0b0f0d","secondary-fixed-dim":"#87d7ad","surface-container-high":"#272b28","error":"#ffb4ab","on-secondary-container":"#8edeb4","tertiary-fixed-dim":"#cec5ba","outline-variant":"#4d4635","surface":"#101412","on-secondary":"#003824","surface-container-low":"#181c1a","on-tertiary-container":"#4a443c","on-primary-fixed":"#241a00","tertiary-fixed":"#ebe1d5"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"2rem","space-md":"1rem","margin":"4rem","space-lg":"1.75rem","space-xl":"3rem","space-xs":"0.25rem","margin-mobile":"1.25rem","space-sm":"0.5rem","margin-tablet":"2.5rem","gutter-mobile":"1rem"},"fontFamily":{"label-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-md-mobile":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"display-md":["Playfair Display"]},"fontSize":{"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.16em","fontWeight":"700"}],"display-md-mobile":["34px",{"lineHeight":"42px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-lg-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-lg":["64px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["26px",{"lineHeight":"34px","letterSpacing":"0em","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.015em","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"600"}],"display-md":["48px",{"lineHeight":"56px","letterSpacing":"-0.015em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.3)]"><div class="w-full bg-surface-container-low px-gutter-mobile lg:px-margin h-8 flex items-center justify-between text-on-surface-variant"><div class="flex items-center gap-space-sm mx-auto overflow-hidden whitespace-nowrap"><span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Exclusive Harvest Lot No. 4882:</span><span class="font-body-sm text-body-sm text-on-surface tracking-wider truncate">Hacienda Alsatia Estate Reserve — Limited Bottlings Available</span></div><div class="hidden xl:flex items-center gap-space-md text-on-surface-variant"><span class="font-label-sm text-label-sm uppercase hover:text-primary transition-colors cursor-pointer">Milano • New York • Tokyo</span><span class="text-outline font-label-sm text-label-sm">|</span><span class="font-label-sm text-label-sm uppercase hover:text-primary transition-colors cursor-pointer">USD ($) / EN</span></div></div><div class="h-20 w-full px-gutter-mobile lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-md group" data-path="homepage" href="#"><img alt="Starbucks Reserve Roastery Crest" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzSF_LtO1M8-_mA0ffwoxXd2O7OWzbxL8DctS6T5mlsgJZaniLW7iM_CG740Z7N2dim2c-_i296jq-6LDuQDq5AXg-q6u66xqalFCdy1OGogjXGaYczZnC6ARsToPgRUwhpzcFVmgqUe7llUwz5SKFxGl7RShZTi09DGGtiHfCAZNsoEdmIcrppUe9xo7H2kHm_UYg4lRwPwI_2I7np1wdq_vNau47EyDRlHNrVAlQQZcIuDsMxSd14A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface group-hover:text-primary transition-colors">STARBUCKS RESERVE®</span><span class="font-label-sm text-label-sm tracking-widest text-primary-container uppercase">The Atelier Collection</span></div></a></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-surface-container-high text-primary font-bold"><a class="px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors rounded" data-path="homepage" href="#">Homepage</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors rounded" data-path="artisanal-order" href="#">Artisanal Order</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors rounded" data-path="bespoke-roastery" href="#">Bespoke Roastery</a><a aria-current="page" class="px-space-md py-space-xs uppercase tracking-wider transition-colors rounded bg-surface-container-high text-primary font-bold" data-path="tasting-feedback-and-concierge" href="#">Tasting Feedback &amp; Concierge</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:flex items-center gap-space-sm px-space-md py-space-sm rounded bg-surface-container-high hover:bg-surface-bright hover:text-on-surface transition-all text-on-surface-variant" data-path="artisanal-order" href="#"><span class="material-symbols-outlined text-primary text-[20px]">shopping_bag</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-on-surface">Reserve Cart</span><span class="px-space-xs py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm">2 • $34.50</span></a><button class="px-space-md py-space-sm bg-primary hover:bg-primary-fixed-dim text-on-primary font-label-md text-label-md uppercase tracking-widest transition-all rounded shadow-[0_4px_16px_rgba(242,202,80,0.2)] hover:shadow-[0_6px_20px_rgba(242,202,80,0.35)]">Reserve Black Card</button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-surface-container-lowest"><div class="flex flex-col w-full text-on-surface">
+<!-- Ambient Luxury Glow Backdrop -->
+<div class="relative w-full overflow-hidden pb-space-xl">
+<div class="absolute -top-32 left-1/4 w-[650px] h-[650px] rounded-full bg-secondary-container/20 blur-[130px] pointer-events-none"></div>
+<div class="absolute top-96 right-10 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[140px] pointer-events-none"></div>
+<div class="w-full px-gutter-mobile lg:px-margin max-w-[1560px] mx-auto">
+<!-- Top VIP Bar & Audit Status -->
+<div class="pt-6 pb-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md border-b-0">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-surface-container-high text-primary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</span>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Reserve Black Tier Privilege</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Authenticated Session: Member #RX-88402 (Seattle Roastery Saloon)</p>
+</div>
+</div>
+<!-- Reward Banner Pill -->
+<div class="flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-md">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface">Completing this tasting audit credits <strong class="text-primary font-bold">150 Reserve Gold Stars</strong></span>
+</div>
+</div>
+<!-- Hero Header Section -->
+<div class="mt-space-md mb-space-xl grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary">Sensory Calibration • Lot Registry No. 4882</span>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight leading-none">
+            The Master Roaster’s <br/><span class="italic text-primary-container">Tasting Journal</span> &amp; Guest Palate
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-2xl leading-relaxed">
+            Share your tasting palate directly with our certified Q-Graders, agronomy liaisons, and culinary directors. Every guest calibration shapes our next micro-lot harvest roast curve.
+          </p>
+</div>
+<!-- Live Q-Grading Concierge Widget -->
+<div class="lg:col-span-4 flex flex-col justify-end">
+<div class="p-space-md rounded-xl bg-surface-container/70 backdrop-blur-xl shadow-xl flex items-center justify-between gap-4">
+<div class="flex items-center gap-space-md">
+<div class="relative">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[28px]">local_cafe</span>
+</div>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-secondary ring-2 ring-surface-container"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-snug">Chef Andrea</span>
+<span class="material-symbols-outlined text-primary text-[16px]">stars</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary tracking-wide uppercase">Lead Q-Grader • Online</span>
+</div>
+</div>
+<button class="px-3 py-2 rounded bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary transition-all text-xs font-label-md uppercase tracking-wider flex items-center gap-1 shadow-sm" onclick="document.getElementById('concierge-modal').classList.remove('hidden')">
+<span>Direct Chat</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Main Interactive Sensory Layout Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Left: Sommelier Tasting Audit Form (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Harvest Lot Meta Showcase Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-low/90 backdrop-blur-md shadow-xl flex flex-col md:flex-row items-center gap-space-lg">
+<div class="w-full md:w-44 h-36 rounded-lg overflow-hidden flex-shrink-0 relative">
+<img class="w-full h-full object-cover" data-alt="An artisanal ceramic cup of single origin dark espresso with silky gold crema on a dark basalt slate slab in a moody dim Starbucks Reserve roastery setting with warm amber backlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyY7mzItTxrR-FEu45GN2lazvaQDeKcn-9uaYhwMBzX4CgzRx2TTWralKhUwUEDQexHviDQrekuQozaz03JUSprb9z5v6sE66iutkziPe4si9mzMIXGpz7qwyvWJwQ-wo1BGYuJBVw1MmE0wWgDtjle2zddQxSpxWyLsM4UNTwY2tJl1c-LNr9sqbjmjYTkSwDcrZftZ6pCcxOXLWjZV9DN9seaWsCQQyKb4rGXqfHCIBS-nH--63axw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm uppercase tracking-wider text-primary">Micro-Lot</span>
+</div>
+<div class="flex-1 flex flex-col gap-1 w-full">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Current Cuvée on Audit</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Harvest: Winter 2024</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Costa Rica Hacienda Alsacia • Estate Reserve</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Varietal: Gesha &amp; Caturra | Elevation: 1,600m | Washed Anaerobic Slow-Ferment</p>
+<div class="flex flex-wrap items-center gap-2 mt-2">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm uppercase tracking-wider">Clover Siphon Extraction</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">93.5 SCA Benchmark</span>
+<span class="px-2.5 py-1 rounded-full bg-primary/15 text-primary font-label-sm text-label-sm uppercase tracking-wider">Aged French Oak Cask</span>
+</div>
+</div>
+</div>
+<!-- Section: The Sensory Assessment Sliders & Scales -->
+<div class="p-space-lg rounded-xl bg-surface-container/70 backdrop-blur-md shadow-xl flex flex-col gap-space-lg">
+<div class="flex items-center justify-between pb-3 border-b-0">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">tune</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Palate Evaluation &amp; Metrics</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Step 1 of 3 • Organoleptic Scoring</span>
+</div>
+<!-- Metric 1: Roast Profile Harmony (1 to 10 Interactive Slider) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/60 p-space-md rounded-lg">
+<div class="flex items-center justify-between">
+<div>
+<label class="font-label-lg text-label-lg text-on-surface block" for="roastHarmony">Roast Profile Harmony &amp; Development</label>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Balance between caramelized sugars, bean density, and terroir acidity</span>
+</div>
+<div class="flex items-baseline gap-1 bg-surface-container-high px-3 py-1 rounded shadow-inner">
+<span class="font-headline-md text-headline-md text-primary font-bold" id="roastValDisplay">8.4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">/10</span>
+</div>
+</div>
+<div class="py-2">
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="roastHarmony" max="10" min="1" oninput="document.getElementById('roastValDisplay').innerText = parseFloat(this.value).toFixed(1)" step="0.1" type="range" value="8.4"/>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<span>1.0 Underdeveloped / Green</span>
+<span class="text-primary">5.0 Maillard Peak</span>
+<span>10.0 Full Dark Roast / High Bitterness</span>
+</div>
+</div>
+<!-- Metric 2: Aroma & Bouquet (Tag Selector) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/60 p-space-md rounded-lg">
+<div class="flex items-center justify-between mb-1">
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">Aroma &amp; Bouquet Resonance</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Select dominant dry fragrance and post-bloom vapors detected</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Multi-Select</span>
+</div>
+<div class="flex flex-wrap gap-2 pt-2" id="aromaTags">
+<button class="px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5 active-tag" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">spa</span> Floral &amp; Orange Blossom
+                </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">psychiatry</span> Candied Bergamot &amp; Stonefruit
+                </button>
+<button class="px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5 active-tag" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">forest</span> Smoked Cedar &amp; Roasted Cacao
+                </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">grain</span> Toasted Hazelnut Praline
+                </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">bolt</span> Wild Spiced Cardamom
+                </button>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm flex items-center gap-1.5" onclick="toggleTag(this)" type="button">
+<span class="material-symbols-outlined text-[14px]">wine_bar</span> Oak Barrel Bourbon Vapour
+                </button>
+</div>
+</div>
+<!-- Metric 3: Body & Mouthfeel (Tactile Radio Cards) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/60 p-space-md rounded-lg">
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">Body, Texture &amp; Mouthfeel Weight</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tactile viscosity on the center and back of the palate</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-2">
+<label class="cursor-pointer group">
+<input checked="" class="hidden peer" name="mouthfeel" type="radio" value="silky"/>
+<div class="p-space-sm rounded-lg bg-surface-container-high peer-checked:bg-secondary-container peer-checked:text-on-secondary text-on-surface transition-all flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-[20px]">water_drop</span>
+<span class="font-label-md text-label-md uppercase tracking-wide">Silky</span>
+<span class="text-[11px] opacity-80">Light tea-like flow</span>
+</div>
+</label>
+<label class="cursor-pointer group">
+<input class="hidden peer" name="mouthfeel" type="radio" value="syrupy"/>
+<div class="p-space-sm rounded-lg bg-surface-container-high peer-checked:bg-secondary-container peer-checked:text-on-secondary text-on-surface transition-all flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-[20px]">opacity</span>
+<span class="font-label-md text-label-md uppercase tracking-wide">Syrupy</span>
+<span class="text-[11px] opacity-80">Dense, molasses-like</span>
+</div>
+</label>
+<label class="cursor-pointer group">
+<input class="hidden peer" name="mouthfeel" type="radio" value="crisp"/>
+<div class="p-space-sm rounded-lg bg-surface-container-high peer-checked:bg-secondary-container peer-checked:text-on-secondary text-on-surface transition-all flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-[20px]">flare</span>
+<span class="font-label-md text-label-md uppercase tracking-wide">Crisp</span>
+<span class="text-[11px] opacity-80">Effervescent, sparkling</span>
+</div>
+</label>
+<label class="cursor-pointer group">
+<input class="hidden peer" name="mouthfeel" type="radio" value="creamy"/>
+<div class="p-space-sm rounded-lg bg-surface-container-high peer-checked:bg-secondary-container peer-checked:text-on-secondary text-on-surface transition-all flex flex-col items-center text-center gap-1">
+<span class="material-symbols-outlined text-[20px]">filter_vintage</span>
+<span class="font-label-md text-label-md uppercase tracking-wide">Creamy</span>
+<span class="text-[11px] opacity-80">Velvety &amp; buttery</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Metric 4: Temperature & Service Presentation Score (Star Rating) -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm bg-surface-container-low/60 p-space-md rounded-lg">
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">Extraction Temperature &amp; Table Ritual</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Calibrated service vessel, thermal preservation &amp; crema integrity</span>
+</div>
+<div class="flex items-center gap-1" id="starContainer">
+<button class="text-primary hover:scale-110 transition-transform" onclick="setStars(1)" type="button"><span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary hover:scale-110 transition-transform" onclick="setStars(2)" type="button"><span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary hover:scale-110 transition-transform" onclick="setStars(3)" type="button"><span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary hover:scale-110 transition-transform" onclick="setStars(4)" type="button"><span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary hover:scale-110 transition-transform" onclick="setStars(5)" type="button"><span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<span class="ml-2 font-label-md text-label-md text-primary font-bold" id="starScoreLabel">5.0 / 5</span>
+</div>
+</div>
+<!-- Extraction Setup Photo Upload Zone -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface">Extraction &amp; Brewing Setup Documentation</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Attach photos of your extraction bar, cup crema, grind consistency, or Chemex draw-down for our head baristas.</p>
+<div class="relative mt-2 p-8 rounded-xl bg-surface-container-lowest flex flex-col items-center justify-center text-center group cursor-pointer hover:bg-surface-container-low transition-all shadow-inner">
+<div class="w-14 h-14 rounded-full bg-surface-container-high group-hover:bg-primary group-hover:text-on-primary text-primary transition-all flex items-center justify-center mb-3 shadow-md">
+<span class="material-symbols-outlined text-[28px]">photo_camera</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Drag &amp; drop extraction imagery or <span class="text-primary underline">browse vault</span></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Supports RAW, TIFF, JPEG up to 32MB • Analyzed by AI Grind Particle Vision</span>
+</div>
+<input accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer" multiple="" type="file"/>
+</div>
+</div>
+<!-- Comprehensive Feedback & Smart Flavor Tag Insertion -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface">Sommelier Cupping Notes &amp; Observations</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Min. 50 words for Master Review</span>
+</div>
+<!-- Quick Flavor Injection Pills -->
+<div class="flex flex-wrap items-center gap-1.5 pt-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider mr-1">Quick Add:</span>
+<button class="px-2.5 py-1 rounded bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface-variant font-label-sm text-label-sm tracking-wide transition-colors" onclick="insertKeyword('hint of jasmine')" type="button">
+                  + hint of jasmine
+                </button>
+<button class="px-2.5 py-1 rounded bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface-variant font-label-sm text-label-sm tracking-wide transition-colors" onclick="insertKeyword('smoky cedar')" type="button">
+                  + smoky cedar
+                </button>
+<button class="px-2.5 py-1 rounded bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface-variant font-label-sm text-label-sm tracking-wide transition-colors" onclick="insertKeyword('velvety nitro foam')" type="button">
+                  + velvety nitro foam
+                </button>
+<button class="px-2.5 py-1 rounded bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface-variant font-label-sm text-label-sm tracking-wide transition-colors" onclick="insertKeyword('dark cacao bitterness')" type="button">
+                  + dark cacao bitterness
+                </button>
+<button class="px-2.5 py-1 rounded bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface-variant font-label-sm text-label-sm tracking-wide transition-colors" onclick="insertKeyword('bright malic crispness')" type="button">
+                  + bright malic crispness
+                </button>
+</div>
+<textarea class="w-full mt-2 p-space-md rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline/60 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner font-body-md text-body-md leading-relaxed" id="cuppingNotesArea" placeholder="Detail your palate experience: first-sip impressions, cooling progression, sweetness longevity, and pairing compliments..." rows="4"></textarea>
+</div>
+<!-- Submit Audit Button -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-2">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span class="font-body-sm text-body-sm">Your feedback is archived in the Master Roaster Harvest Database.</span>
+</div>
+<button class="w-full sm:w-auto px-space-xl py-space-sm bg-primary hover:bg-primary-fixed-dim text-on-primary font-label-md text-label-md uppercase tracking-widest rounded transition-all shadow-[0_4px_20px_rgba(242,202,80,0.3)] hover:shadow-[0_6px_26px_rgba(242,202,80,0.45)] flex items-center justify-center gap-2" onclick="submitAuditSuccess()">
+<span>Submit Sensory Audit</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right: Sensory Radar & VIP Concierge Saloon Reservations (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Radar Flavor Wheel Diagram Card -->
+<div class="p-space-lg rounded-xl bg-surface-container/70 backdrop-blur-md shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Flavors Wheel Matrix</h3>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Real-Time</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Synthetic live mapping of your inputted sensory parameters against our Master Cupper profile.</p>
+<!-- Vector Radar Chart -->
+<div class="relative w-full aspect-square flex items-center justify-center p-4">
+<svg class="w-full h-full" viewbox="0 0 280 280">
+<!-- Concentric Web Guides -->
+<polygon class="text-primary" fill="none" points="140,20 254,86 254,214 140,280 26,214 26,86" stroke="currentColor" stroke-opacity="0.1" stroke-width="1"></polygon>
+<polygon class="text-primary" fill="none" points="140,55 220,101 220,199 140,245 60,199 60,101" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"></polygon>
+<polygon class="text-primary" fill="none" points="140,90 186,116 186,184 140,210 94,184 94,116" stroke="currentColor" stroke-opacity="0.15" stroke-width="1"></polygon>
+<!-- Spoke Lines -->
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="140" y1="140" y2="20"></line>
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="254" y1="140" y2="86"></line>
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="254" y1="140" y2="214"></line>
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="140" y1="140" y2="280"></line>
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="26" y1="140" y2="214"></line>
+<line class="text-primary" stroke="currentColor" stroke-opacity="0.2" stroke-width="1" x1="140" x2="26" y1="140" y2="86"></line>
+<!-- Benchmark Master Cupper Polygon (Gold Dash) -->
+<polygon class="text-primary/70" fill="none" points="140,38 230,95 210,190 140,230 75,190 70,95" stroke="currentColor" stroke-dasharray="3,3" stroke-width="1.5"></polygon>
+<!-- User Calibrated Sensory Polygon (Emerald Glow Fill) -->
+<polygon class="text-secondary transition-all duration-700" fill="currentColor" fill-opacity="0.3" id="userRadarPolygon" points="140,48 215,90 225,200 140,240 85,180 60,105" stroke="currentColor" stroke-width="2"></polygon>
+<!-- Radial Nodes -->
+<circle class="text-primary" cx="140" cy="48" fill="currentColor" r="4"></circle>
+<circle class="text-secondary" cx="215" cy="90" fill="currentColor" r="4"></circle>
+<circle class="text-secondary" cx="225" cy="200" fill="currentColor" r="4"></circle>
+<circle class="text-secondary" cx="140" cy="240" fill="currentColor" r="4"></circle>
+<circle class="text-secondary" cx="85" cy="180" fill="currentColor" r="4"></circle>
+<circle class="text-secondary" cx="60" cy="105" fill="currentColor" r="4"></circle>
+<!-- Labels -->
+<text class="fill-primary font-label-sm text-[9px] uppercase tracking-wider" text-anchor="middle" x="140" y="14">Sweetness</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px] uppercase tracking-wider" text-anchor="start" x="260" y="85">Acidity</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px] uppercase tracking-wider" text-anchor="start" x="260" y="220">Mouthfeel</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px] uppercase tracking-wider" text-anchor="middle" x="140" y="275">Aftertaste</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px] uppercase tracking-wider" text-anchor="end" x="20" y="220">Balance</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px] uppercase tracking-wider" text-anchor="end" x="20" y="85">Aroma</text>
+</svg>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm pt-2">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-0.5 bg-primary/70"></span>
+<span>Master Benchmark</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-2 bg-secondary/40 rounded-sm"></span>
+<span class="text-secondary">Your Live Sensory Map</span>
+</div>
+</div>
+</div>
+<!-- Private Tasting Table & Concierge Booking -->
+<div class="p-space-lg rounded-xl bg-surface-container/70 backdrop-blur-md shadow-xl flex flex-col gap-space-md relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_month</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Reserve Private Saloon</h3>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">VIP Table Booking</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Request an exclusive cupping flight, liquid nitrogen siphon flight, or bespoke Roastery saloon tasting with our executive sommelier team.</p>
+<form class="flex flex-col gap-space-sm" onsubmit="event.preventDefault(); alert('VIP Saloon request received. Your designated Reserve concierge will contact you within 2 business hours.');">
+<!-- Atelier Location Select -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider" for="roasterySelect">Select Flagship Atelier</label>
+<select class="w-full px-space-md py-space-xs rounded bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-1 focus:ring-primary font-body-sm text-body-sm cursor-pointer shadow-inner" id="roasterySelect">
+<option>Milano Roastery • Piazza Cordusio (Private Mezzanine)</option>
+<option selected="">New York Roastery • Meatpacking District (Vault Bar)</option>
+<option>Seattle Roastery • Capitol Hill (Roaster Tasting Counter)</option>
+<option>Tokyo Roastery • Nakameguro (Amu Inspiration Hall)</option>
+</select>
+</div>
+<!-- Tasting Experience Type -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider" for="experienceSelect">Experience Curation</label>
+<select class="w-full px-space-md py-space-xs rounded bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-1 focus:ring-primary font-body-sm text-body-sm cursor-pointer shadow-inner" id="experienceSelect">
+<option>Whiskey Barrel-Aged Flight &amp; Princi Truffle Pairing</option>
+<option>Micro-Lot Anaerobic Gesha Cupping Lab (4 Estates)</option>
+<option>The Chemex &amp; Siphon Molecular Masterclass</option>
+<option>Private Roasting Drum Observation &amp; Custom Blend Blending</option>
+</select>
+</div>
+<!-- Date & Party Size Grid -->
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider" for="partyDate">Preferred Date</label>
+<input class="w-full px-2 py-1.5 rounded bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-1 focus:ring-primary font-body-sm text-body-sm shadow-inner" id="partyDate" type="date" value="2025-04-18"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider" for="partySize">Party Size</label>
+<select class="w-full px-2 py-1.5 rounded bg-surface-container-lowest text-on-surface focus:outline-none focus:ring-1 focus:ring-primary font-body-sm text-body-sm cursor-pointer shadow-inner" id="partySize">
+<option>1 Connoisseur</option>
+<option selected="">2 Guests (VIP Salon)</option>
+<option>Up to 6 (Private Chamber)</option>
+</select>
+</div>
+</div>
+<button class="mt-2 w-full py-2.5 rounded bg-secondary-container hover:bg-secondary text-on-secondary hover:text-on-secondary-fixed transition-colors font-label-md text-label-md uppercase tracking-widest font-bold shadow-md flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[18px]">table_bar</span>
+<span>Request Concierge Table</span>
+</button>
+</form>
+</div>
+<!-- Roastery Origin Visual Spotlight -->
+<div class="relative rounded-xl overflow-hidden h-44 shadow-lg group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A grand copper roasting cask towering inside the modern dark Starbucks Reserve Roastery with ambient warm glow, copper pipes overhead, and guests savoring espresso at the sleek marble tasting bar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw2FvxJKjIDauaCR_xPYL1ze4U23aoU_LxtlSLr1Kif3NDlxVssiMM-sEjTkHe-Yv1k7nW9B7bJTJnPa3_leQZvtGBK6SIgVo0h4W6AZ6FnxCyJkHAqloZ3KNCxtTya9EBrm-a3unhx9uE38B9F8edRpVkCTLKSyXPPl6AVadqg-MwCXYp4v5_i-Kuxg2kSXOgmHd3VkjXWNZ1nip5bpoaWuUN6MzFopXEOTZPZZBUucoi18khjIIVLQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Flagship Saloon</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">Milano • Piazza Cordusio</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container-highest/80 backdrop-blur font-label-sm text-label-sm text-on-surface uppercase">Curated Walk-in</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 3: Community Tasting Highlights & Sommelier Critiques -->
+<div class="mt-space-xl pt-space-lg flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-space-sm pb-space-sm border-b-0">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">Connoisseur Ledger</span>
+<h2 class="font-display-md text-display-md text-on-surface tracking-tight">Recent VIP Cupping Critiques</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Verified Starbucks Reserve Black Card members grading our recent estate arrivals, answered directly by our Master Cuppers.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Testimonial Card 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md hover:bg-surface-container-low transition-all">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center font-label-md text-primary font-bold">
+                    EL
+                  </div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Evelyn Laurent, M.D.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">New York Reserve Member • Tier V</span>
+</div>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Rwanda Sholi Single Origin</span>
+<p class="font-body-md text-body-md text-on-surface mt-1 italic">“The raspberry coulis note in the Chemex was sublime. However, cooling revealed an intoxicating hint of cedar and white tea that completely elevated the mid-palate.”</p>
+</div>
+</div>
+<!-- Sommelier Counter Note -->
+<div class="p-space-sm rounded-lg bg-surface-container-high/90 flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[14px]">reply</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">Sommelier Andrea (Seattle)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">“Precise observation, Evelyn. That cedar resin is native to the high-altitude volcanic canopy of Lake Kivu. We are adjusting our drum drop temperature by 1.2°C to prolong that exact white-tea finish.”</p>
+</div>
+</div>
+<!-- Testimonial Card 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md hover:bg-surface-container-low transition-all">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center font-label-md text-primary font-bold">
+                    MT
+                  </div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Marcus Thorne</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Milano Roastery VIP • Sommelier Society</span>
+</div>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+</div>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Pantheon Blend Lot No. XII</span>
+<p class="font-body-md text-body-md text-on-surface mt-1 italic">“Pulled as a double ristretto at 9 bar. Unbelievable viscosity, reminiscent of dark chocolate ganache, with a subtle lingering note of dried black fig.”</p>
+</div>
+</div>
+<!-- Sommelier Counter Note -->
+<div class="p-space-sm rounded-lg bg-surface-container-high/90 flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[14px]">reply</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">Master Cupper Gianluca (Milano)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">“Bravo, Marcus. The dried fig emerges from our natural sun-dried Ethiopian component. Pairing this with a 72% Venezuelan dark chocolate square highlights the fig tannin flawlessly.”</p>
+</div>
+</div>
+<!-- Testimonial Card 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low/80 backdrop-blur-md shadow-xl flex flex-col justify-between gap-space-md hover:bg-surface-container-low transition-all">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center font-label-md text-primary font-bold">
+                    SK
+                  </div>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Sayaka Kuramoto</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tokyo Reserve Collector • Tier VII</span>
+</div>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Bourbon Barrel-Aged Guatemala</span>
+<p class="font-body-md text-body-md text-on-surface mt-1 italic">“Cold siphon extraction served over clear crystalline ice. The butterscotch aroma fills the glass before the first sip. Velvety, smooth, almost zero bitter astringency.”</p>
+</div>
+</div>
+<!-- Sommelier Counter Note -->
+<div class="p-space-sm rounded-lg bg-surface-container-high/90 flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[14px]">reply</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">Head of Roasting Kenji (Tokyo)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">“Arigato, Sayaka. Aging the green unroasted beans in Kentucky charred oak barrels for 62 days infuses pure vanillin without retaining alcohol. An honor to calibrate with your palate.”</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- VIP Sommelier Concierge Modal (Hidden by default, triggered by chat button) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-surface-container-lowest/80 backdrop-blur-lg hidden" id="concierge-modal">
+<div class="w-full max-w-lg rounded-2xl bg-surface-container shadow-2xl p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">support_agent</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sommelier Chatline</h3>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Chef Andrea • Private Room #4</span>
+</div>
+</div>
+<button class="p-1 text-on-surface-variant hover:text-on-surface" onclick="document.getElementById('concierge-modal').classList.add('hidden')">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-3 py-2 h-64 overflow-y-auto px-1">
+<div class="flex flex-col gap-1 max-w-[85%] self-start bg-surface-container-high p-3 rounded-lg text-body-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase">Chef Andrea</span>
+<p class="text-on-surface">Welcome to the Private Concierge Saloon. I am currently monitoring roast curves for our Costa Rica Hacienda Alsacia lot. Are you looking for advice on grind microns, water temperature, or custom barrel pairings?</p>
+</div>
+<div class="flex flex-col gap-1 max-w-[85%] self-end bg-secondary-container text-on-secondary p-3 rounded-lg text-body-sm">
+<span class="font-label-sm text-label-sm opacity-80 uppercase">You</span>
+<p>I am extracting via siphon and noticing a slightly higher acidity than expected. Any water mineralization recommendations?</p>
+</div>
+<div class="flex flex-col gap-1 max-w-[85%] self-start bg-surface-container-high p-3 rounded-lg text-body-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase">Chef Andrea</span>
+<p class="text-on-surface">Aim for 120-140 ppm TDS, specifically buffering with 40 ppm magnesium to round out that malic crispness without flattening the bergamot top note.</p>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<input class="flex-1 px-4 py-2.5 rounded bg-surface-container-lowest text-on-surface placeholder:text-outline text-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Type your inquiry to the Master Q-Grader..." type="text"/>
+<button class="px-4 py-2.5 bg-primary text-on-primary rounded font-label-md uppercase tracking-wider hover:bg-primary-fixed-dim transition-colors">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Inline Micro-interactions and Dynamic State Script -->
+<script>
+    function toggleTag(btn) {
+      if (btn.classList.contains('active-tag')) {
+        btn.classList.remove('active-tag', 'bg-secondary-container', 'text-on-secondary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface');
+      } else {
+        btn.classList.add('active-tag', 'bg-secondary-container', 'text-on-secondary');
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface');
+      }
+      shiftRadarPolygon();
+    }
+
+    function setStars(count) {
+      const container = document.getElementById('starContainer');
+      const buttons = container.querySelectorAll('button');
+      buttons.forEach((btn, idx) => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (idx < count) {
+          icon.style.fontVariationSettings = "'FILL' 1";
+        } else {
+          icon.style.fontVariationSettings = "'FILL' 0";
+        }
+      });
+      document.getElementById('starScoreLabel').innerText = count + '.0 / 5';
+    }
+
+    function insertKeyword(phrase) {
+      const textarea = document.getElementById('cuppingNotesArea');
+      const current = textarea.value.trim();
+      if (current.length > 0) {
+        textarea.value = current + ', ' + phrase;
+      } else {
+        textarea.value = phrase.charAt(0).toUpperCase() + phrase.slice(1);
+      }
+      shiftRadarPolygon();
+    }
+
+    function shiftRadarPolygon() {
+      const poly = document.getElementById('userRadarPolygon');
+      if (!poly) return;
+      const variations = [
+        "140,35 225,95 235,190 140,250 75,195 55,100",
+        "140,48 215,90 225,200 140,240 85,180 60,105",
+        "140,40 230,85 210,210 140,235 90,175 65,95"
+      ];
+      const randomPoint = variations[Math.floor(Math.random() * variations.length)];
+      poly.setAttribute('points', randomPoint);
+    }
+
+    function submitAuditSuccess() {
+      const textarea = document.getElementById('cuppingNotesArea');
+      if (textarea.value.trim().length < 10) {
+        alert('Please record your sensory impressions in the cupping notes field before submitting.');
+        textarea.focus();
+        return;
+      }
+      alert('Sensory Audit Lot #4882 successfully logged with Q-Grade Council. 150 Reserve Gold Stars credited to Black Card #RX-88402.');
+      textarea.value = '';
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl shadow-[0_-1px_12px_rgba(0,0,0,0.4)]"><div class="w-full px-gutter-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Starbucks Reserve Roastery Crest" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzSF_LtO1M8-_mA0ffwoxXd2O7OWzbxL8DctS6T5mlsgJZaniLW7iM_CG740Z7N2dim2c-_i296jq-6LDuQDq5AXg-q6u66xqalFCdy1OGogjXGaYczZnC6ARsToPgRUwhpzcFVmgqUe7llUwz5SKFxGl7RShZTi09DGGtiHfCAZNsoEdmIcrppUe9xo7H2kHm_UYg4lRwPwI_2I7np1wdq_vNau47EyDRlHNrVAlQQZcIuDsMxSd14A"/><span class="font-headline-sm text-headline-sm text-primary">STARBUCKS RESERVE®</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">The zenith of coffee craft, micro-lot exploration, and sensorial theater. Honoring ancestral agricultural stewardship across singular global estates.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Atelier Flagships:</span><span class="font-body-sm text-body-sm text-on-surface">Milano • Seattle • Tokyo • New York • Shanghai • Chicago</span></div></div><div class="flex flex-col gap-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Artisanal Ledger</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Micro-Lot Vintage Releases</li><li class="hover:text-primary transition-colors cursor-pointer">Aged Whiskey Barrel Inceptions</li><li class="hover:text-primary transition-colors cursor-pointer">Siphon &amp; Chemex Laboratory</li><li class="hover:text-primary transition-colors cursor-pointer">Pantheon Blend Subscriptions</li><li class="hover:text-primary transition-colors cursor-pointer">Exclusive Cold Craft Systems</li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Princi® &amp; Gastronomy</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Artisanal Princi Bakery Menus</li><li class="hover:text-primary transition-colors cursor-pointer">Reserve Coffee Pairing Dinners</li><li class="hover:text-primary transition-colors cursor-pointer">Arriviamo Bar Mixology</li><li class="hover:text-primary transition-colors cursor-pointer">Dark Chocolate Ganache Flight</li><li class="hover:text-primary transition-colors cursor-pointer">Estate Honey &amp; Botanicals</li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">Concierge Desk</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Reserve private roasting saloons, bespoke sensory cupping sessions, or personalized origin subscriptions.</p><div class="flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Direct Private Line</span><span class="font-body-md text-body-md text-on-surface">+1 (800) RESERVE-VIP</span><span class="font-label-sm text-label-sm text-on-surface-variant">atelier@starbucksreserve.com</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Starbucks Reserve Atelier &amp; Roastery. All Rights Reserved. Ethical Sourcing Protocol Verified.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Provenance Integrity</a><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Gastronomy</a><a class="hover:text-primary transition-colors" href="#">Sitemap</a></div></div></div></footer></body></html>
